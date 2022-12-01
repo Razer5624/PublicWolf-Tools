@@ -1,0 +1,38 @@
+body {
+  background: url('http://512pixels.net/downloads/macos-wallpapers/10-9.jpg') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+#menu-bar {
+  display: inline-block;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  min-height: 55px;
+  max-height: 55px;
+  height: 55px;
+  margin: auto;
+  margin-bottom: -30px;
+  background-color: #333;
+  border-radius: 15px;
+  padding: 20px;
+  max-width: 90%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+ul {
+  transform: translate(-50%, -50%);
+display: flex;
+}
+ul li {
+  list-style: none;
+}
+#menu-bar img {
+  height: 35px;
+  top: 0;
+  margin-left: 5px;
+  margin-rigth: 5px;
+  overflow: visible;
+}

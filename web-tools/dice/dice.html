@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>dice</title>
+
+  <script>
+    function dice() {
+      let d = document.getElementById("result");
+      let r = Math.floor(Math.random()*6+1);
+      d.textContent = r;
+    }
+  </script>
+</head>
+
+<body>
+  <button onclick="dice()">サイコロ</button>
+  <p id="result"></p>
+</body>
+</html>
